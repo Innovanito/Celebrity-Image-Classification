@@ -48,3 +48,7 @@ model_params = {
 }
 ```
 저는 SVM, Random_Forest, Logestic regression 을 hyperparameter를 변경하며 시험해보았습니다.
+
+6. Flask서버를 만듭니다.
+7. 이미지를 넣어주면, POST 방식으로 학습모델에 b64의 string으로 바꿔준다음, 예측 모델의 Object를 받습니다.
+8. UI에 표시해줍니다.
